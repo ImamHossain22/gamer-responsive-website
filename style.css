@@ -1,0 +1,83 @@
+/* shared style here */
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#word-art {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* nav related styles are here  */
+
+nav {
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-between;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#icon {
+    width: 80px;
+    height: 35px;
+}
+
+.nav-1-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    width: 147px;
+    height: 53px;
+}
+
+.nav-2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-2 ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.nav-2 a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-3-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    gap: 20px;
+    padding: 15px 24px;
+}
+
+.nav-3-container li {
+    list-style: none;
+}
+
+.nav-3-container a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
