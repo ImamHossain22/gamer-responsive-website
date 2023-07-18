@@ -51,7 +51,7 @@ nav {
     display: flex;
     gap: 30px;
     list-style: none;
-    
+
 }
 
 .nav-2 a {
@@ -80,4 +80,26 @@ nav {
     font-size: 18px;
     font-weight: 500;
 
+}
+
+
+
+/* Responsive for small devices*/
+
+@media screen and (max-width: 576px) {
+    nav,.nav-1 ,.nav-2{
+        flex-direction: column;
+        padding: 25px;
+    }
+
+}
+
+/* Responsive for medium devices*/
+
+@media screen and (max-width: 992px){
+    nav,.nav-1 ,.nav-2{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 25px;
+    }
 }
