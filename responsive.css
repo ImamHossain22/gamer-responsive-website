@@ -14,24 +14,47 @@
     .banner-container{
         flex-direction: column;
     }
-
+    .banner-text{
+        padding: 10px;
+    }
     .banner-text,.banner-img{
         width: 100%;
+        text-align: center;
+
     }
-    
+    .banner-text h2{
+       font-size: 30px;
+    }
+
+    .banner-text h3{
+        font-size: 25px;
+    }
+
+    #btn-1 , #btn-2 {
+        border-radius: 18px;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 10px;
+    }
     
 
 }
 
 /* Responsive for medium devices*/
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 577px) and ( max-width: 992px) {
 
-    nav,
-    .nav-1,
-    .nav-2 {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding: 25px;
-    }
+   nav{
+    padding: 30px 50px;
+   }
+
+   .banner-container{
+        flex-direction: column;
+   }
+
+   .banner-text, .banner-img{
+
+    width: 100%;
+
+   }
 }
