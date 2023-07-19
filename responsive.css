@@ -2,14 +2,18 @@
 
 @media screen and (max-width: 576px) {
 
-    nav,
-    .nav-1,
-    .nav-2,{
+    /* nav responsive start here */
+
+    nav,.nav-1,.nav-2{
         flex-direction: column;
-        padding: 25px;
+        padding: 0px;
+        align-items: center;
+        margin-bottom: 5px;
     }
 
     /* nav responsive end  */
+
+    /* banner responsive start here */
 
     .banner-container{
         flex-direction: column;
@@ -37,6 +41,17 @@
         padding: 10px;
     }
     
+    /* banner responsive ends */
+
+    /* main section one */
+
+    .main-section-1{
+        flex-direction: row;
+        text-align: center;
+        margin-top: 120px;
+        font-size: 20;
+    }
+
 
 }
 
@@ -44,9 +59,12 @@
 
 @media screen and (min-width: 577px) and ( max-width: 992px) {
 
+       /* nav responsive start here */
    nav{
     padding: 30px 50px;
    }
+
+   /* banner */
 
    .banner-container{
         flex-direction: column;
@@ -57,4 +75,9 @@
     width: 100%;
 
    }
+
+   /* main section one  */
+
+
+
 }
