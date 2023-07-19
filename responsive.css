@@ -1,0 +1,37 @@
+/* Responsive for small devices*/
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    .nav-1,
+    .nav-2,{
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    /* nav responsive end  */
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-text,.banner-img{
+        width: 100%;
+    }
+    
+    
+
+}
+
+/* Responsive for medium devices*/
+
+@media screen and (max-width: 992px) {
+
+    nav,
+    .nav-1,
+    .nav-2 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 25px;
+    }
+}
