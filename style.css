@@ -285,7 +285,7 @@ nav {
     background: #FFF;
 }
 
-.game-c :hover{
+.game-c :hover {
     border: 5px solid #F948B2;
 }
 
@@ -302,4 +302,65 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     padding: 20px 350px;
+}
+
+/* footer */
+
+footer {
+    height: 636px;
+    background: #0B0223;
+    display: flex;
+}
+
+.footer-container {
+  margin: auto;
+}
+
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.list-container {
+
+    display: flex;
+    gap: 60px;
+    justify-content:center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.list-container>li {
+    list-style: none;
+
+}
+
+.footer-icon {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.icons {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    height: 20;
+    margin-bottom: 40px;
+    text-align: center;
 }
