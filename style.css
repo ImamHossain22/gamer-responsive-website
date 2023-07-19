@@ -225,3 +225,81 @@ nav {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* last section css here */
+
+.last-section-container {
+    display: flex;
+    gap: 120px;
+    padding: 0px 200px 0px 400px;
+    margin-top: 120px;
+    width: 1320px;
+    height: 700px;
+}
+
+.text-section {
+    width: 50%;
+    height: 600px;
+    position: static;
+    padding-top: 200px;
+}
+
+
+.last-section-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    height: 180px;
+    width: 341px;
+}
+
+.last-section-info {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 353px;
+    height: 90px;
+}
+
+.img-section-container {
+    width: 50%;
+    height: 600px;
+}
+
+.img-sect-cont-2 {
+    position: relative;
+    bottom: 300px;
+    right: 160px;
+}
+
+/* game section css */
+
+.game-c {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.game-c :hover{
+    border: 5px solid #F948B2;
+}
+
+.game-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin-top: 200px;
+    padding: 0 240px;
+}
+
+.game-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    padding: 20px 350px;
+}

@@ -70,6 +70,25 @@
         height: 300px;
     }
 
+    /* last section css here */
+
+    .last-section-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 30%;
+        margin:0px;
+        padding: 0px;
+    }
+
+    .text-section{
+        width: 300px;
+        height: 200px;
+    }
+
+    .img-section-container{
+        
+    }
+
 }
 
 /* Responsive for medium devices*/
@@ -122,3 +141,6 @@
     }
 
 }
+
+
+
