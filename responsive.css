@@ -4,7 +4,9 @@
 
     /* nav responsive start here */
 
-    nav,.nav-1,.nav-2{
+    nav,
+    .nav-1,
+    .nav-2 {
         flex-direction: column;
         padding: 0px;
         align-items: center;
@@ -15,69 +17,108 @@
 
     /* banner responsive start here */
 
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .banner-text{
+
+    .banner-text {
         padding: 10px;
     }
-    .banner-text,.banner-img{
+
+    .banner-text,
+    .banner-img {
         width: 100%;
         text-align: center;
 
     }
-    .banner-text h2{
-       font-size: 30px;
+
+    .banner-text h2 {
+        font-size: 30px;
     }
 
-    .banner-text h3{
+    .banner-text h3 {
         font-size: 25px;
     }
 
-    #btn-1 , #btn-2 {
+    #btn-1,
+    #btn-2 {
         border-radius: 18px;
         font-size: 10px;
         font-weight: 400;
         padding: 10px;
     }
-    
+
     /* banner responsive ends */
 
     /* main section one */
 
-    .main-section-1{
+    .main-section-1 {
         flex-direction: row;
         text-align: center;
         margin-top: 120px;
         font-size: 20;
     }
 
+    /* card img */
+
+    .card-img-sec {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-container img {
+        height: 300px;
+    }
 
 }
 
 /* Responsive for medium devices*/
 
-@media screen and (min-width: 577px) and ( max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 
-       /* nav responsive start here */
-   nav{
-    padding: 30px 50px;
-   }
+    /* nav responsive start here */
+    nav {
+        padding: 30px 50px;
+    }
 
-   /* banner */
+    /* banner */
 
-   .banner-container{
+    .banner-container {
         flex-direction: column;
-   }
+        background-image: none;
+        padding-left: 200px;
+    }
 
-   .banner-text, .banner-img{
+    .banner-text,
+    .banner-img {
+            height: 400px;
 
-    width: 100%;
+    }
+    .banner-img{
+       padding: 0px;
+    }
 
-   }
-
-   /* main section one  */
 
 
+    /* main section one  */
+
+    .main-section-1{
+        flex-direction:column;
+        text-align: center;
+        margin-top: 200px;
+        font-size: 30;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+
+    .card-img-sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-container img {
+        height: 300px;
+    }
 
 }
